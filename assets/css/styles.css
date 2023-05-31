@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+}
+
+.userimage {
+  width: 32px;
+  border-radius: 16px;
+  border: 1px solid #e8ebe4;
+}
+
+.name_status {
+  display: flex;
+  flex-direction: column;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  justify-content: space-between;
+  padding: 0.7rem 2rem;
+  border: 1px solid #e8ebe4;
+  height: 10vh;
+}
+
+.contacts:hover {
+  cursor: pointer;
+  background-color: #e8ebe4;
+}
+
+.user-maria {
+  height: 8vh;
+}
+
+.newchat {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  justify-content: center;
+  padding: 2rem 1rem;
+  border: 1px solid #e8ebe4;
+  height: 16vh;
+}
+
+button {
+  background-color: #a491d2;
+  border: none;
+  padding: 0.75rem 4rem;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #cdc3e6;
+}
+
+button:focus {
+  background-color: #bec1bb;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 20rem;
+  height: 100vh;
+}
+
+.userinfo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.user-maria h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.user-maria p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  color: #828485;
+}
+
+.contacts h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.contacts p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #1b1f21;
+}
+
+.contacts .userimage {
+  width: 48px;
+  border-radius: 24px;
+}
+
+.icons {
+  color: #828485;
+  display: flex;
+  gap: 16px;
+}
+
+.formbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #e8ebe4;
+}
+
+.networking-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.networking-container p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+}
+
+.networking-container .p-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+}
+
+.networking-container h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.networking-container img {
+  width: 20rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
